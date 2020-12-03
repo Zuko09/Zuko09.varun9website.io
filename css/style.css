@@ -131,6 +131,75 @@ img.admin {
     margin: 0.5em 0 3em 0;
 }
 
+.inner-varunv9-full h2,
+.head-w3ls {
+    color: #fff;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    margin: 0em 0 1.5em 0;
+    text-align: center;
+}
+
+.inner-varunv9-full h3,
+.head-w3ls {
+    color: #fff;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    margin: 0em 0 1.5em 0;
+    text-align: center
+}
+
+.inner-varunv9-full h4 {
+    color: #fff;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    margin: 0.5em 0 1em 0;
+    text-align: left
+}
+.inner-varunv9-full h5 {
+    color: #fff;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    margin: 0.2em 0 .2em 0;
+    text-align: left
+}
+.inner-varunv9-full p {
+    color: #fff;
+    font-size: 0.8em;
+    /*text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);*/
+    margin: 0.2em 0 .2em 0;
+    text-align: left
+}
+
+.inner-varunv9-full a {
+    color: #fff;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /*text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);*/
+    margin: 0.2em 0.2em 0.2em 0.2em;
+    text-align: left;
+    border: 1px solid white
+}
+.inner-varunv9-full a:hover {
+    color: #b5b5b5;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /*text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);*/
+    margin: 0.2em 0 0.2em 0;
+    text-align: left;
+    border: 1px solid white;s
+    background-color: #404040;
+}
 
 /*--//content --*/
 /*--/tab-content --*/
@@ -148,6 +217,14 @@ img.admin {
     width: 55%;
     padding-top: 4em;
     text-align: center;
+
+}   
+
+.inner-varunv9-full {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 4em;
+    /*text-align: left;*/
 
 }
 
@@ -372,6 +449,18 @@ form.contact-form {
 
 @media(max-width:800px) {
     .inner-w3layouts-wrap {
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 3em;
+        text-align: center;
+    }
+
+    .banner-info {
+        padding-top: 3.5em;
+    }
+}
+@media(max-width:800px) {
+    .innner-varunv9-full {
         margin: 0 auto;
         width: 90%;
         padding-top: 3em;
